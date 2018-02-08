@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2fd73213-5b64-4002-b842-6e6dbd6ab9fa">
+  <name>_ДемоРасширение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Расширение</value>
+  </synonym>
+  <comment></comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d7800717-0e86-451f-a6ce-57630d818feb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4ed49da0-107f-433d-9d54-7fb261163c57"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="79cf2942-b0ce-4a24-a3b9-d0179aee3c46"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7ca6ce3b-72e3-41f2-af4c-e592223f255b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="97195d3c-c930-4477-b4b0-e94e6f4e6782"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fe151390-6223-4a57-bb8c-dfc8118c8c2d"/>
+  <namePrefix>_ДемоРасширение</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Фирма &quot;1С&quot;</vendor>
+  <version>1.0.0.8</version>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="eecf216b-994d-452b-a20c-d6c32a4e20f0">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem._ДемоОрганайзер</subsystems>
+  <subsystems>Subsystem._ДемоРасширение</subsystems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.Информация32</commonPictures>
+  <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <commonPictures>CommonPicture.УвеличитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.УменьшитьШрифт</commonPictures>
+  <commonPictures>CommonPicture.ГраницаВокруг</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture._ДемоРазделИнтегрируемыеПодсистемы</commonPictures>
+  <roles>Role._ДемоБазовыеПраваПользователяБСП</roles>
+  <roles>Role._ДемоДобавлениеИзменениеПеремещенийТоваров</roles>
+  <roles>Role._ДемоДобавлениеИзменениеСкладскихДокументов</roles>
+  <roles>Role._ДемоРасширениеДобавлениеИзменениеЗаведующихМестамиХранения</roles>
+  <roles>Role._ДемоЧтениеПеремещенийТоваров</roles>
+  <roles>Role._ДемоЧтениеСкладскихДокументов</roles>
+  <roles>Role.Подсистема_ДемоРасширение</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОтчетыКлиентПереопределяемый</commonModules>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
+  <commonCommands>CommonCommand._ДемоПанельОтчетовРасширение</commonCommands>
+  <commonForms>CommonForm.РедактированиеТабличногоДокумента</commonForms>
+  <catalogs>Catalog._ДемоКонтрагенты</catalogs>
+  <catalogs>Catalog._ДемоМестаХранения</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <documents>Document._ДемоСчетНаОплатуПокупателю</documents>
+  <documents>Document._ДемоРеализацияТоваров</documents>
+  <documents>Document._ДемоПоступлениеТоваров</documents>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <reports>Report._ДемоРасширениеОстаткиТоваров</reports>
+  <dataProcessors>DataProcessor._ДемоРасширениеЗаполнениеКонтрагентов</dataProcessors>
+  <dataProcessors>DataProcessor._ДемоРасширениеПечатьСчетовНаОплатуПокупателю</dataProcessors>
+  <informationRegisters>InformationRegister._ДемоЗаведующиеМестамиХранения</informationRegisters>
+  <accumulationRegisters>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения</accumulationRegisters>
+</mdclass:Configuration>
